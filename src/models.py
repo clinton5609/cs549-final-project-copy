@@ -2,6 +2,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
 
+
 def get_models():
     return {
         "Logistic Regression": LogisticRegression(max_iter=1000, class_weight="balanced"),
